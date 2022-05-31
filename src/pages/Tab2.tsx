@@ -1,7 +1,6 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar,
-        IonFab, IonFabButton, IonIcon, IonGrid, IonRow, IonCol, IonImg, IonActionSheet } from '@ionic/react';
+        IonFab, IonFabButton, IonIcon, IonGrid, IonRow, IonCol, IonImg } from '@ionic/react';
 import { camera } from 'ionicons/icons';
-import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 
 import { usePhotoGallery } from '../hooks/usePhotoGallery';
